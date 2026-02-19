@@ -1,0 +1,10 @@
+# Varandian Optics - Git Attributes
+
+# Mark Jupyter notebooks as documentation
+*.ipynb linguist-documentation
+
+# Python files are code
+*.py linguist-language=Python
+
+# Markdown is documentation
+*.md linguist-documentation

@@ -1,0 +1,16 @@
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Interactive visualization
+ipywidgets>=8.0.0
+jupyter>=1.0.0
+plotly>=5.14.0
+
+# Data handling
+pandas>=2.0.0
+
+# Optional but recommended
+seaborn>=0.12.0  # Beautiful plots
+tqdm>=4.65.0     # Progress bars
