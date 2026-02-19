@@ -7,6 +7,7 @@ Implementation of the theoretical framework from:
 > **Varandian Optics: A Non-Euclidean Formulation of Light Propagation**  
 > Pedro Coutinho Varanda  
 > *Zenodo*, 2026 
+
 > [📄 Read the paper](https://doi.org/10.5281/zenodo.18529071)
 
 ---
