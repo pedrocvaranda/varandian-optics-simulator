@@ -192,7 +192,7 @@ plot_multiple_rays(rays, K=1.0)
 
 ML/AI enthusiast | Rio de Janeiro, Brazil 🇧🇷
 
-[GitHub](https://github.com/pedrocvaranda) • [LinkedIn](#) • [Email](mailto:pedrocvaranda@example.com)
+[GitHub](https://github.com/pedrocvaranda) • [Email](mailto:pedrocvaranda@example.com)
 
 
 ---
@@ -226,6 +226,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org)
+[![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18529071.svg)](https://doi.org/10.5281/zenodo.18529071)
-[![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
