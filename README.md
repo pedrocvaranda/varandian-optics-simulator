@@ -193,7 +193,7 @@ plot_multiple_rays(rays, K=1.0)
 
 ML/AI enthusiast | Rio de Janeiro, Brazil 🇧🇷
 
-[GitHub](https://github.com/pedrocvaranda) • [Email](mailto:pedrocvaranda@gmail.com)
+[GitHub](https://github.com/pedrocvaranda) • [ORCID](https://orcid.org/0009-0004-5199-1745) • [Email](mailto:pedrocvaranda@gmail.com)
 
 
 ---
