@@ -21,12 +21,14 @@ cd varandian-optics-simulator
 ### Step 3: Create Virtual Environment (Recommended)
 
 **Windows:**
+
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
 **Mac/Linux:**
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -39,12 +41,13 @@ pip install -r requirements.txt
 ```
 
 This installs:
+
 - numpy (numerical computing)
 - scipy (integration)
 - matplotlib (visualization)
 - jupyter (notebooks)
 - ipywidgets (interactivity)
-- And more...
+- And more…
 
 ### Step 5: Test Installation
 
@@ -53,6 +56,7 @@ python -m tests.test_geodesics
 ```
 
 You should see:
+
 ```
 SK Euclidean test passed
 SK Spherical test passed  
@@ -71,34 +75,37 @@ jupyter notebook examples/quickstart.ipynb
 
 Your browser will open with the interactive tutorial!
 
----
+-----
 
 ## Troubleshooting
 
-### Issue: "No module named 'core'"
+### Issue: “No module named ‘core’”
 
-**Solution:** Make sure you're in the project root directory:
+**Solution:** Make sure you’re in the project root directory:
+
 ```bash
 cd varandian-optics-simulator
 python -m tests.test_geodesics
 ```
 
-### Issue: "numpy not found"
+### Issue: “numpy not found”
 
 **Solution:** Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### Issue: Jupyter doesn't open
+### Issue: Jupyter doesn’t open
 
 **Solution:**
+
 ```bash
 pip install --upgrade jupyter
 jupyter notebook
 ```
 
----
+-----
 
 ## Project Structure
 
@@ -107,6 +114,7 @@ varandian-optics-simulator/
 ├── core/                    # Core mathematical engine
 │   ├── metrics.py          # Eq (1)-(2): SK(r) functions
 │   ├── geodesics.py        # Eq (3)-(5): Ray propagation
+│   ├── refraction.py       # Eq (6): Refraction law
 │   └── __init__.py
 │
 ├── visualization/          # Plotting & projections
@@ -114,11 +122,15 @@ varandian-optics-simulator/
 │   ├── plotting.py        # Plot functions
 │   └── __init__.py
 │
-├── examples/              # Jupyter notebooks
+├── examples/              # Jupyter notebooks & scripts
 │   ├── quickstart.ipynb   # 🌟 START HERE
-│   └── comparison.ipynb   # Advanced comparisons
+│   ├── refraction_demo.ipynb
+│   ├── comparison.ipynb
+│   ├── simple_example.py
+│   └── run_critical_angles.py
 │
 ├── tests/                 # Unit tests
+│   ├── __init__.py
 │   └── test_geodesics.py
 │
 ├── paper/                 # Original research paper
@@ -126,18 +138,18 @@ varandian-optics-simulator/
 └── README.md              # Documentation
 ```
 
----
+-----
 
 ## Next Steps
 
 After installation:
 
 1. **Run quickstart:** `jupyter notebook examples/quickstart.ipynb`
-2. **Explore code:** Read through `core/metrics.py`
-3. **Run tests:** `python -m tests.test_geodesics`
-4. **Modify examples:** Create your own notebooks!
+1. **Explore code:** Read through `core/metrics.py`
+1. **Run tests:** `python -m tests.test_geodesics`
+1. **Modify examples:** Create your own notebooks!
 
----
+-----
 
 ## Citation
 
@@ -164,11 +176,11 @@ And the original paper:
 }
 ```
 
----
+-----
 
 ## Need Help?
 
-- Read the [README.md](README.md)
+- Read the <README.md>
 - Check the [paper](https://doi.org/10.5281/zenodo.18529071)
 - Open an issue on GitHub
 
